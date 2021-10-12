@@ -1,0 +1,39 @@
+.container-main-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-button-favorites{
+    width:20rem;
+    height: 4rem;
+    border-radius: 2rem;
+    cursor:pointer;
+
+    background: transparent;
+    color: #000;
+    border: solid #58d68d 2px; 
+    
+}
+
+
+.container-button-favorites:hover{
+    background: #58d68d;
+    color: white; 
+}
+
+.container-icon-favorites{
+    height: 3rem;
+    width: 3rem;
+    border: solid rgba(255, 255, 0, 0.932) 1px;
+    border-radius:50%;
+    
+}
+
+.favorite-icon__principal{
+    color:#58d68d;
+}
+
+.favorite-icon__selected{
+    color:rgba(255, 255, 0, 0.932);
+}

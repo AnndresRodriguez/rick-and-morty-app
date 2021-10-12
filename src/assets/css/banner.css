@@ -1,0 +1,38 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40rem;
+  width: 100%;
+  position: relative;
+}
+
+.banner-background {
+  background-image: url("../img/rm-bg-1920-edited.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* filter: brightness(40%); */
+}
+
+.banner__input {
+  width: 30%;
+  height: 4.5rem;
+}
+
+.banner__image {
+  position: absolute;
+  left: 35%;
+  top: 0;
+  width: 40rem;
+}
+
+.banner__icon {
+  cursor: pointer;
+}
+
+.video-banner {
+  width:100%;
+  height: 40rem;
+}

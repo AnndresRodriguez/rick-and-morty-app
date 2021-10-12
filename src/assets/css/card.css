@@ -1,0 +1,104 @@
+.container-main {
+  box-shadow: 0 3px 13px 1px #c2c2c2;
+  width: 31%;
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.max-height-card{
+  width: 75%;
+  margin: 0 auto;
+  padding: 1rem;
+  height: 92%;
+  cursor: pointer;
+}
+
+.container-main:hover{
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.card-icon-favorite {
+  position: absolute;
+  left: 90%;
+  top: 6%;
+  color:#58d68d;
+  /* z-index: 10000; */
+}
+
+.img__content {
+  width: 15rem;
+  height: 15rem;
+}
+
+.info {
+  padding-left: 1.5rem;
+}
+
+.info__status {
+  font-size: 1.3rem;
+  width: 7rem;
+  height: 2rem;
+  color: #fff;
+  border-radius: 5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.modal-status{
+  margin-top: 6rem;
+}
+
+.info__status-modal{
+  margin: 0 auto;
+}
+
+.info__label {
+  padding-top: 0.5rem;
+  font-size: 1.2rem;
+  color: #566573;
+}
+
+.info__name {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.info__description {
+  font-size: 1.4rem;
+}
+
+.img__specie {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  height: 2rem;
+}
+
+
+.info__status--alive {
+  background-color: #58d68d;
+}
+.info__status--dead {
+  background-color: #e74c3c;
+}
+.info__status--unknown {
+  background-color: #7f8c8d;
+}
+
+.img__specie--human {
+  background: #2c3e50;
+}
+
+.img__specie--alien {
+  background: #84ae23;
+}
+
+.img__specie--default {
+  background: #3498db;
+}
