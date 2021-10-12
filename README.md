@@ -1,9 +1,15 @@
-# rickandmorty-app
+# Rick And Morty App
+
+Application web created in Vue 2 with the rest service [Rick And Morty API](https://rickandmortyapi.com/documentation/#rest) 
+
+## Steps to run Web Application
 
 ## Project setup
+Install all dependencies of project with the next command
 ```
 npm install
 ```
+
 
 ### Compiles and hot-reloads for development
 ```
@@ -14,11 +20,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
