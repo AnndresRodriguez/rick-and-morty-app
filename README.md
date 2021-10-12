@@ -2,6 +2,10 @@
 
 Application web created in Vue 2 with the rest service [Rick And Morty API](https://rickandmortyapi.com/documentation/#rest) 
 
+## Demo
+
+https://testrickandmorty.netlify.app/#/
+
 ## Steps to run Web Application
 
 ## Project setup
